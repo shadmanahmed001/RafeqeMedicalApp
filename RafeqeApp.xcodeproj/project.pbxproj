@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7D175611FAABB60000A15CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D175601FAABB60000A15CE /* AppDelegate.swift */; };
+		E7D175631FAABB60000A15CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D175621FAABB60000A15CE /* ViewController.swift */; };
+		E7D175661FAABB60000A15CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D175641FAABB60000A15CE /* Main.storyboard */; };
+		E7D175681FAABB60000A15CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D175671FAABB60000A15CE /* Assets.xcassets */; };
+		E7D1756B1FAABB60000A15CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D175691FAABB60000A15CE /* LaunchScreen.storyboard */; };
+		E7D175761FAABB60000A15CE /* RafeqeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D175751FAABB60000A15CE /* RafeqeAppTests.swift */; };
+		E7D175811FAABB60000A15CE /* RafeqeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D175801FAABB60000A15CE /* RafeqeAppUITests.swift */; };
+		E7D175A71FAABE53000A15CE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D1759A1FAABDBE000A15CE /* Alamofire.framework */; };
+		E7D175A81FAABE53000A15CE /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E7D1759A1FAABDBE000A15CE /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7D175721FAABB60000A15CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D175551FAABB5F000A15CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7D1755C1FAABB5F000A15CE;
+			remoteInfo = RafeqeApp;
+		};
+		E7D1757D1FAABB60000A15CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D175551FAABB5F000A15CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7D1755C1FAABB5F000A15CE;
+			remoteInfo = RafeqeApp;
+		};
+		E7D175991FAABDBE000A15CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D1758E1FAABDBC000A15CE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		E7D1759B1FAABDBE000A15CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D1758E1FAABDBC000A15CE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		E7D1759D1FAABDBE000A15CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D1758E1FAABDBC000A15CE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		E7D1759F1FAABDBE000A15CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D1758E1FAABDBC000A15CE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		E7D175A11FAABDBE000A15CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D1758E1FAABDBC000A15CE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		E7D175A31FAABDBE000A15CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D1758E1FAABDBC000A15CE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		E7D175A51FAABDBE000A15CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D1758E1FAABDBC000A15CE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		E7D175A91FAABE53000A15CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D1758E1FAABDBC000A15CE /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7D175AB1FAABE53000A15CE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E7D175A81FAABE53000A15CE /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E7D1755D1FAABB60000A15CE /* RafeqeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RafeqeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D175601FAABB60000A15CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7D175621FAABB60000A15CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7D175651FAABB60000A15CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7D175671FAABB60000A15CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7D1756A1FAABB60000A15CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7D1756C1FAABB60000A15CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D175711FAABB60000A15CE /* RafeqeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RafeqeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D175751FAABB60000A15CE /* RafeqeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RafeqeAppTests.swift; sourceTree = "<group>"; };
+		E7D175771FAABB60000A15CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D1757C1FAABB60000A15CE /* RafeqeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RafeqeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D175801FAABB60000A15CE /* RafeqeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RafeqeAppUITests.swift; sourceTree = "<group>"; };
+		E7D175821FAABB60000A15CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D1758E1FAABDBC000A15CE /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7D1755A1FAABB5F000A15CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D175A71FAABE53000A15CE /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D1756E1FAABB60000A15CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D175791FAABB60000A15CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7D175541FAABB5F000A15CE = {
+			isa = PBXGroup;
+			children = (
+				E7D1758E1FAABDBC000A15CE /* Alamofire.xcodeproj */,
+				E7D1755F1FAABB60000A15CE /* RafeqeApp */,
+				E7D175741FAABB60000A15CE /* RafeqeAppTests */,
+				E7D1757F1FAABB60000A15CE /* RafeqeAppUITests */,
+				E7D1755E1FAABB60000A15CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7D1755E1FAABB60000A15CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7D1755D1FAABB60000A15CE /* RafeqeApp.app */,
+				E7D175711FAABB60000A15CE /* RafeqeAppTests.xctest */,
+				E7D1757C1FAABB60000A15CE /* RafeqeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7D1755F1FAABB60000A15CE /* RafeqeApp */ = {
+			isa = PBXGroup;
+			children = (
+				E7D175601FAABB60000A15CE /* AppDelegate.swift */,
+				E7D175621FAABB60000A15CE /* ViewController.swift */,
+				E7D175641FAABB60000A15CE /* Main.storyboard */,
+				E7D175671FAABB60000A15CE /* Assets.xcassets */,
+				E7D175691FAABB60000A15CE /* LaunchScreen.storyboard */,
+				E7D1756C1FAABB60000A15CE /* Info.plist */,
+			);
+			path = RafeqeApp;
+			sourceTree = "<group>";
+		};
+		E7D175741FAABB60000A15CE /* RafeqeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7D175751FAABB60000A15CE /* RafeqeAppTests.swift */,
+				E7D175771FAABB60000A15CE /* Info.plist */,
+			);
+			path = RafeqeAppTests;
+			sourceTree = "<group>";
+		};
+		E7D1757F1FAABB60000A15CE /* RafeqeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7D175801FAABB60000A15CE /* RafeqeAppUITests.swift */,
+				E7D175821FAABB60000A15CE /* Info.plist */,
+			);
+			path = RafeqeAppUITests;
+			sourceTree = "<group>";
+		};
+		E7D1758F1FAABDBC000A15CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7D1759A1FAABDBE000A15CE /* Alamofire.framework */,
+				E7D1759C1FAABDBE000A15CE /* Alamofire iOS Tests.xctest */,
+				E7D1759E1FAABDBE000A15CE /* Alamofire.framework */,
+				E7D175A01FAABDBE000A15CE /* Alamofire macOS Tests.xctest */,
+				E7D175A21FAABDBE000A15CE /* Alamofire.framework */,
+				E7D175A41FAABDBE000A15CE /* Alamofire tvOS Tests.xctest */,
+				E7D175A61FAABDBE000A15CE /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7D1755C1FAABB5F000A15CE /* RafeqeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D175851FAABB60000A15CE /* Build configuration list for PBXNativeTarget "RafeqeApp" */;
+			buildPhases = (
+				E7D175591FAABB5F000A15CE /* Sources */,
+				E7D1755A1FAABB5F000A15CE /* Frameworks */,
+				E7D1755B1FAABB5F000A15CE /* Resources */,
+				E7D175AB1FAABE53000A15CE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D175AA1FAABE53000A15CE /* PBXTargetDependency */,
+			);
+			name = RafeqeApp;
+			productName = RafeqeApp;
+			productReference = E7D1755D1FAABB60000A15CE /* RafeqeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7D175701FAABB60000A15CE /* RafeqeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D175881FAABB60000A15CE /* Build configuration list for PBXNativeTarget "RafeqeAppTests" */;
+			buildPhases = (
+				E7D1756D1FAABB60000A15CE /* Sources */,
+				E7D1756E1FAABB60000A15CE /* Frameworks */,
+				E7D1756F1FAABB60000A15CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D175731FAABB60000A15CE /* PBXTargetDependency */,
+			);
+			name = RafeqeAppTests;
+			productName = RafeqeAppTests;
+			productReference = E7D175711FAABB60000A15CE /* RafeqeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7D1757B1FAABB60000A15CE /* RafeqeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D1758B1FAABB60000A15CE /* Build configuration list for PBXNativeTarget "RafeqeAppUITests" */;
+			buildPhases = (
+				E7D175781FAABB60000A15CE /* Sources */,
+				E7D175791FAABB60000A15CE /* Frameworks */,
+				E7D1757A1FAABB60000A15CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D1757E1FAABB60000A15CE /* PBXTargetDependency */,
+			);
+			name = RafeqeAppUITests;
+			productName = RafeqeAppUITests;
+			productReference = E7D1757C1FAABB60000A15CE /* RafeqeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7D175551FAABB5F000A15CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Shadman Ahmed ";
+				TargetAttributes = {
+					E7D1755C1FAABB5F000A15CE = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					E7D175701FAABB60000A15CE = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E7D1755C1FAABB5F000A15CE;
+					};
+					E7D1757B1FAABB60000A15CE = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E7D1755C1FAABB5F000A15CE;
+					};
+				};
+			};
+			buildConfigurationList = E7D175581FAABB5F000A15CE /* Build configuration list for PBXProject "RafeqeApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7D175541FAABB5F000A15CE;
+			productRefGroup = E7D1755E1FAABB60000A15CE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E7D1758F1FAABDBC000A15CE /* Products */;
+					ProjectRef = E7D1758E1FAABDBC000A15CE /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E7D1755C1FAABB5F000A15CE /* RafeqeApp */,
+				E7D175701FAABB60000A15CE /* RafeqeAppTests */,
+				E7D1757B1FAABB60000A15CE /* RafeqeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E7D1759A1FAABDBE000A15CE /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = E7D175991FAABDBE000A15CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7D1759C1FAABDBE000A15CE /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = E7D1759B1FAABDBE000A15CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7D1759E1FAABDBE000A15CE /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = E7D1759D1FAABDBE000A15CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7D175A01FAABDBE000A15CE /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = E7D1759F1FAABDBE000A15CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7D175A21FAABDBE000A15CE /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = E7D175A11FAABDBE000A15CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7D175A41FAABDBE000A15CE /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = E7D175A31FAABDBE000A15CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7D175A61FAABDBE000A15CE /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = E7D175A51FAABDBE000A15CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7D1755B1FAABB5F000A15CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D1756B1FAABB60000A15CE /* LaunchScreen.storyboard in Resources */,
+				E7D175681FAABB60000A15CE /* Assets.xcassets in Resources */,
+				E7D175661FAABB60000A15CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D1756F1FAABB60000A15CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D1757A1FAABB60000A15CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7D175591FAABB5F000A15CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D175631FAABB60000A15CE /* ViewController.swift in Sources */,
+				E7D175611FAABB60000A15CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D1756D1FAABB60000A15CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D175761FAABB60000A15CE /* RafeqeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D175781FAABB60000A15CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D175811FAABB60000A15CE /* RafeqeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7D175731FAABB60000A15CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7D1755C1FAABB5F000A15CE /* RafeqeApp */;
+			targetProxy = E7D175721FAABB60000A15CE /* PBXContainerItemProxy */;
+		};
+		E7D1757E1FAABB60000A15CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7D1755C1FAABB5F000A15CE /* RafeqeApp */;
+			targetProxy = E7D1757D1FAABB60000A15CE /* PBXContainerItemProxy */;
+		};
+		E7D175AA1FAABE53000A15CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = E7D175A91FAABE53000A15CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7D175641FAABB60000A15CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D175651FAABB60000A15CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7D175691FAABB60000A15CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D1756A1FAABB60000A15CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7D175831FAABB60000A15CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7D175841FAABB60000A15CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7D175861FAABB60000A15CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PKHH358N43;
+				INFOPLIST_FILE = RafeqeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shadmanahmed.info.RafeqeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7D175871FAABB60000A15CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PKHH358N43;
+				INFOPLIST_FILE = RafeqeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shadmanahmed.info.RafeqeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7D175891FAABB60000A15CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PKHH358N43;
+				INFOPLIST_FILE = RafeqeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shadmanahmed.info.RafeqeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RafeqeApp.app/RafeqeApp";
+			};
+			name = Debug;
+		};
+		E7D1758A1FAABB60000A15CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PKHH358N43;
+				INFOPLIST_FILE = RafeqeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shadmanahmed.info.RafeqeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RafeqeApp.app/RafeqeApp";
+			};
+			name = Release;
+		};
+		E7D1758C1FAABB60000A15CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PKHH358N43;
+				INFOPLIST_FILE = RafeqeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shadmanahmed.info.RafeqeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RafeqeApp;
+			};
+			name = Debug;
+		};
+		E7D1758D1FAABB60000A15CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PKHH358N43;
+				INFOPLIST_FILE = RafeqeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shadmanahmed.info.RafeqeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RafeqeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7D175581FAABB5F000A15CE /* Build configuration list for PBXProject "RafeqeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D175831FAABB60000A15CE /* Debug */,
+				E7D175841FAABB60000A15CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D175851FAABB60000A15CE /* Build configuration list for PBXNativeTarget "RafeqeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D175861FAABB60000A15CE /* Debug */,
+				E7D175871FAABB60000A15CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D175881FAABB60000A15CE /* Build configuration list for PBXNativeTarget "RafeqeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D175891FAABB60000A15CE /* Debug */,
+				E7D1758A1FAABB60000A15CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D1758B1FAABB60000A15CE /* Build configuration list for PBXNativeTarget "RafeqeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D1758C1FAABB60000A15CE /* Debug */,
+				E7D1758D1FAABB60000A15CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7D175551FAABB5F000A15CE /* Project object */;
+}
